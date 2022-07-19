@@ -1,5 +1,5 @@
 void main() {
   String str = "Holberton School";
     print(str*3);
-    print(str.split(" ").sublist(0,1).join(",") + '\n');
+    print(str.substring(0,9) + '\n');
 }
