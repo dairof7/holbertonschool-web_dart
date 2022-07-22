@@ -26,13 +26,9 @@ class User extends Password {
         height: userJson['height']);
   }
 
-  String showName() {
-    return "Hello $name";
-  }
-
   String toString() {
     final pass = Password(password: user_password);
 
-    return "User(id : $id ,name: $name, age: $age, height: $height, Password: ${pass.isValid()}})";
+    return "User(id : $id ,name: $name, age: $age, height: $height, Password: ${pass.isValid()})";
   }
 }

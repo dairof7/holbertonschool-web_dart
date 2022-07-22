@@ -11,7 +11,6 @@ class Password {
         (this._password?.length ?? 0) < 18) {
       if (this._password!.contains(RegExp(r"(?=.*[a-z])(?=.*[A-Z])\w+"))) {
         if (this._password!.contains(RegExp(r'\d'))) {
-
           return true;
         }
       }
